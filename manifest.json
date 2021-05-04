@@ -8,7 +8,7 @@
   "theme_color": "#2A3443",
   "icons": [
     {
-      "src": "./icons/mvr512x512.png",
+      "src": "./mvr512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
