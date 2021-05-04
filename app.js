@@ -1,16 +1,16 @@
 window.addEventListener('load', e => {
   new PWAConfApp();
-  registerSW(); (1)
+  registerSW();
 });
 
-async function registerSW() { (1)
-  if ('serviceWorker' in navigator) { (2)
+async function registerSW() {
+  if ('serviceWorker' in navigator) {
     try {
-      await navigator.serviceWorker.register('./sw.js'); (3)
+      await navigator.serviceWorker.register('./sw.js');
     } catch (e) {
-      alert('ServiceWorker registration failed. Sorry about that.'); (4)
+      alert('ServiceWorker registration failed. Sorry about that.');
     }
   } else {
-    document.querySelector('.alert').removeAttribute('hidden'); (5)
+    document.querySelector('.alert').removeAttribute('hidden');
   }
 }
