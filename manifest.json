@@ -2,7 +2,7 @@
   "name": "Mirapolis VR",
   "short_name": "VR",
   "display": "fullscreen",
-  "start_url": "./"
+  "start_url": "./",
   "background_color": "#2A3443",
   "description": "Mirapolis VR app",
   "theme_color": "#2A3443",
