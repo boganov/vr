@@ -6,7 +6,7 @@ const staticAssets = [
   './styles.css'
 ];
 
-self.addEventListener('install', async event => {
+self.addEventListener('install', event => {
   console.log('install');
 });
 
